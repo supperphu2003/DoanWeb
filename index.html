@@ -19,7 +19,7 @@
             <nav class="header__navbar">
                 <ul class="header__navbar-list">
                     <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item-separate">
-                        Vào cửa hàng trên ứng dụng f8 Shop
+                        Vào cửa hàng trên ứng dụng HP Shop
                         <div class="header__qr">
                             <img src="./assets/img/d91264e165ed6facc6178994d5afae79.png" alt="QR Code" class="header__qr-qrcode">
                             <div class="header__qr-apps">
@@ -120,7 +120,23 @@
                     
                 </div>
                 <div class="header__search">
-                    <input type="text" class="header__search-input" placeholder="Nhập để tim kiếm sản phẩm ">
+                    <div class="header__search-input-warp">
+
+                        <input type="text" class="header__search-input" placeholder="Nhập để tim kiếm sản phẩm ">
+                        <!-- search-history -->
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="">hahahaha</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">Áo khoác da</a>
+                                </li>
+                            </ul>
+                        </div>
+                      
+                    </div>
                     <div class="header__search-select">
                         <span class="header__search-select-label">Trong shop</span>
                         <i class=" header__search-select-icon fa-solid fa-chevron-down"></i>
@@ -139,8 +155,95 @@
                         <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
                     </button>
                 </div>
+                <!-- cart layout -->
                 <div class="header__cart">
-                    <i class=" header__cart-icon fa-solid fa-cart-shopping"></i>
+                    <div class="header__cart-wrap">
+                        <i class=" header__cart-icon fa-solid fa-cart-shopping"></i>
+                        <span class="header__cart-notice">3</span>
+                        <!-- no-cart: header__cart-list-nocart -->
+                        <div class="header__cart-list ">
+                            <img src="./assets/img/no-cart.png" alt="" class="header__cart-no-cart-img">
+                            <span class="header__cart-list-lines">Chưa có sản phẩm</span>
+                            <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                            <ul class="header__cart-list-item">
+                                <!-- cart-item -->
+                                <li class="header__cart-item">
+                                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s23-ultra.png" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Samsung Galaxy S23 ultra </h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">22.490.000đ</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qtn">2</span>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại:Samxung
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+
+                                            
+
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-flip-5-256gb_1_4.png" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Samsung Galaxy Z Flip5</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">17.990.000đ</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qtn">3</span>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại:Samxung
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+
+                                            
+
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-fold-5-256gb_1.png" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Samsung Galaxy Z Fold5</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">30.990.000đ</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qtn">1</span>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại:Samxung
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+
+                                            
+
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="#" class=" header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
 
@@ -258,6 +361,7 @@
 
         <!-- </div> 
     </div>  -->
+    
     
 
 </body>
