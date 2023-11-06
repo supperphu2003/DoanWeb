@@ -35,6 +35,7 @@ html{
     display: flex;
     flex-wrap: wrap;
 }
+
 /* Animation */
 @keyframes fadein{
     from{
