@@ -635,16 +635,17 @@ margin-right: 11px;
     margin-top: 14px;
 }
 .header__cart-notice{
-    top: -5px;
+    top: -7px;
     right: -5px;
     position: absolute;
-    padding: 1px 7px ;
+    padding: 1px 7px;
     border-radius: 10px;
     border: 2px solid #EE4D2D;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.4rem;
     color: var(--primary-color);
     background-color: var(--while-color);
+
 }
 .header__search-input-warp{
     flex: 1;
@@ -1053,3 +1054,59 @@ i.home-product-item__like-icon-fill{
 .home-product__pagination{
     margin: 48px 0 32px 0;
 }
+/* add-product */
+.add-product{
+    height: 26px;
+    width: 70px;
+    border: 1px solid #c91b46;
+    border-radius: 5px;
+    font-size: 9px;
+    color: var(--primary-color);
+    background-color: var(--while-color);
+    margin-right: 10px;
+    padding: 0px 5px;
+}
+.add-product:hover{
+    background-color: rgba(0 ,0 ,0 , 0.05);
+}
+.add-product p{
+    font-weight: 500;
+    
+}
+/* gio hang */
+.totalPrice{
+  float: right;
+  padding-right: 16px;
+  font-weight: 500
+  
+}
+.totalPrice-name{
+    font-size: 14px;
+
+}
+.totalPrice-value{
+font-size: 14px;
+padding: 0 6px 0 6px;
+}
+.price-đ{
+    font-size: 10px;
+    padding: 0 1px;
+    color: var(--text-color);
+}
+.price-total-đ{
+    font-size: 12px;
+    padding-left: 2px;
+}
+
+.footer-cart{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
