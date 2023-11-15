@@ -209,8 +209,9 @@ html{
 .pagination-item{
      margin: 0 12px;
 }
-.pagination-item--avtive a{
+.pagination-item--avtive button{
     color: var(--while-color);
+    border: none;
     border-radius: 3px;
     background-color: var(--primary-color);
 }

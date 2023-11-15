@@ -84,7 +84,7 @@ function deleteCart(){
 
 // click-------
 document.addEventListener('DOMContentLoaded', function() {
-    var addProductButton = document.querySelector('.home-product');
+    var addProductButton = document.querySelector('.grid__column-10');
   
     addProductButton.addEventListener('click', function(event) {
       // Ngăn chặn hành vi mặc định của sự kiện click
@@ -93,6 +93,63 @@ document.addEventListener('DOMContentLoaded', function() {
       
     });
   });
+  document.addEventListener('DOMContentLoaded', function() {
+    var addProductButton = document.querySelector('#page-2');
   
+    addProductButton.addEventListener('click', function(event) {
+      // Ngăn chặn hành vi mặc định của sự kiện click
+      event.preventDefault();
+  
+      
+    });
+  });  
+  document.addEventListener('DOMContentLoaded', function() {
+    var addProductButton = document.querySelector('#page-3');
+  
+    addProductButton.addEventListener('click', function(event) {
+      // Ngăn chặn hành vi mặc định của sự kiện click
+      event.preventDefault();
+  
+      
+    });
+  });  
+  document.addEventListener('DOMContentLoaded', function() {
+    var addProductButton = document.querySelector('#page-4');
+  
+    addProductButton.addEventListener('click', function(event) {
+      // Ngăn chặn hành vi mặc định của sự kiện click
+      event.preventDefault();
+  
+      
+    });
+  });  
+  document.addEventListener('DOMContentLoaded', function() {
+    var addProductButton = document.querySelector('#page-5');
+  
+    addProductButton.addEventListener('click', function(event) {
+      // Ngăn chặn hành vi mặc định của sự kiện click
+      event.preventDefault();
+  
+      
+    });
+  });   
+  
+// change Page
+  // Hàm chuyển trang
+function changePage(pageNumber) {
+    // Ẩn tất cả các trang sản phẩm
+    var productPages = document.querySelectorAll('.grid__column-10');
+    productPages.forEach(function(page) {
+        page.style.display = 'none';
+    });
+
+    // Hiển thị trang được chọn
+    var selectedPage = document.getElementById('page-' + pageNumber);
+    if (selectedPage) {
+        selectedPage.style.display = 'block';
+    }
+}
+
+
   
   
