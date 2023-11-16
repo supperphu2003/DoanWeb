@@ -1111,7 +1111,50 @@ padding: 0 6px 0 6px;
     display: block;
 }
 
-/*    */
+/*  foooter  */
+.footer{
+    border-top: 3px solid var(--primary-color);
+    padding-top:16px ;
+}
+.footer__heading{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+.footer__list{
+    padding-left: 0;
+    list-style: none;
 
+}
+.footer__item{
+    height: 30px;
+}
+.footer__item-link{
+    text-decoration: none;
+    font-size: 13px;
+    color: #737373;
+    padding: 2px 0;
+}
+.footer__download{
+    display: flex;
+}
+.footer__download-img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid rgba(0 ,0 ,0 , 0.5) ;
+}
+.footer__download-apps{
+    display: block;
+    margin: auto;
+    padding-left: 12px;
+}
+.footer__download-googleplay{
+    height: 28px;
+    width: 115px;
+}
+.footer__download-appstore{
+    height: 28px;
+    width: 115px;
+}
 
 
